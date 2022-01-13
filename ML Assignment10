@@ -1,0 +1,95 @@
+Question 1.
+Define the Bayesian interpretation of probability.
+Bayesian probability is a conditional probability which can be defined as: The probability of A given B or P(A|B) is equal to the Probability of B given A or P(B|A) multiplied by Probability of A or P(A), whole divided by Probability of B or P(B). or
+
+P(A|B) = (P(B|A).P(A))/P(B) when P(B) and P(A) > 0.
+
+Bayes Probability or Bayes theorem relies on assuming prior knowledge of conditions that are related to an event.
+
+Question 2.
+Define probability of a union of two events with equation.
+Probability of a union of two events can be defined as: The probability of a union of two events A and B (A U B) is equal to the sum of probabilities of A and B, subtracting the probability of intersection of two events A and B.
+
+mathematically,
+
+P(A U B) = P(A) + P(B) - P(A ∩ B)
+
+Question 3.
+What is joint probability? What is its formula?
+Joint probability or the multiplicative rule of probability is the probability of two events occuring spontaneously given that the events are independent.
+
+Mathematically,
+
+P(A ∩ B) = P(A) * P(B)
+
+Question 4.
+What is chain rule of probability?
+Chain rule is an extension to the joint probability where simultaneous occurence of A and B can also be written as
+
+P(A ∩ B) = P(A) * P(B|A)
+
+and can be further extended to calculate simulataneous occurence of 3 events A,B and C and
+
+P(A ∩ B ∩ C) = P(A) P(B|A) P(C|A ∩ B)
+
+Question 5.
+What is conditional probability means? What is the formula of it?
+Probability of an event A occuring given event B has already occurred is conditional probability. It is mathematically written as
+
+P(A|B) = P(A ∩ B)/P(B)
+
+Question 6.
+What are continuous random variables?
+Continous random variables are variables whose values come from a subset of Real Numbers which is uncountably infinite.
+
+Question 7.
+What are Bernoulli distributions? What is the formula of it?
+Bernoulli distributions are a special case of Binomial distributions. This distribution is created by a single trial which can only have two outcomes, either success or failure. Probability Mass Function for Bernoulli Distribution is
+
+P(X=x) = p^x(1 - p)^(1-x) where p is the probability of success and 1-p is probability of failure where a random variable X can take only two values 0 and 1. x=1 would mean probability of success gets activated while x=0 would mean probability of failure gets activated.
+
+Question 8.
+What is binomial distribution? What is the formula?
+When one Bernoulli trial is repeated n times and all trials are independent and identical, Binomial distribution is created where P(X) would give the probability of number of successes out of n trails. Its Probability Mass Function is
+
+P(X=x) = nCx p^x q^(n-x) where n is number of trails and x is the number of successes out of n trials.
+
+Question 9.
+What is Poisson distribution? What is the formula?
+Poisson distribution is a discrete probability distribution that is used to calculate the likelihood of an event within a time period. When p is close to 0, and n trials are infinite in number, then assuming n * p = λ
+
+P(λ) = ((e^-λ) * (λ^x))/x! where λ>0
+
+Question 10.
+Define covariance.
+Linear relationship between 2 random variables can be given by Cov(X,Y) such that
+
+Cov(X,Y) = Expectation((X - Expectation(X))(Y - E(Y)))
+
+or
+
+Expectation(XY) - Expectation(X).Expectation(Y)
+
+Covariance can only measure direction of linear relationship between 2 random variables.
+
+Question 11.
+Define correlation
+Correlation is the numeric property which is used to measure direction and magnitude of the linear relationship between 2 random variables. High correlation does not guarantee causation.
+
+Question 12.
+Define sampling with replacement. Give example.
+Sampling with replacement is the process of procuring subsets of data when any population element can be chosen and included into subsets more than once.
+
+If out of a class of 40 students we need to sample 10 students with simple random sampling method with replacement, we may choose one student more than once and include it into our subset.
+
+Question 13.
+What is sampling without replacement? Give example.
+Sampling with replacement is the process of procuring subsets of data when a population element can be chosen and included into subsets only once.
+
+If out of a class of 40 students we need to sample 10 students without replacement, we have to choose one student only once and include it into our subset. This would mean that all the elements of that subset would necessarily be different.
+
+Question 14.
+What is hypothesis? Give example.
+Hypothesis is any proposed statement either true or false, that is based on the possible outcome of a research or a statistical study. Hypothesis can be of parametric or statistical type.
+
+Increase in the years of experience will lead to increase in salary is an example of hypothesis.
