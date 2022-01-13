@@ -1,0 +1,62 @@
+1. What is prior probability? Give an example.
+Prior probability is calculated as the probability of an event before an experiment is performed using more data. In simple words, Prior probability is a part of Bayes theorem which is calculated as the probability of an event which is about to occur.
+
+Mathematically, it can be defined as the Probability of event A occurring. P(A).
+
+We can calculate the probability of getting afflicted with Covid-19 without any additional information would put us in a box and we would simply have to calculate the probability using the entire population of the world.
+
+2. What is posterior probability? Give an example.
+Posterior probability is calculated as the probability of an event after adjusting the prior probability given the new information.
+
+Mathematically, it can be defined as the Probability of event A (P(A)) given that event B has already occurred.
+
+In above example, with more information like the information regarding the country and state we wish to talk about for Covid-19 infection, we will change or adjust our probability. In this case, probability calculated after getting more information is posterior probability.
+
+3. What is likelihood probability? Give an example.
+P(x|c) is the likelihood which is the probability of predictor given class.
+
+4. What is Naïve Bayes classifier? Why is it named so?
+Naive Bayes classifier is a supervised machine learning model based on the Bayes Theorem. It is one of the probabilistic models that calculates the probability of a data point belonging to a certain class using features
+
+It is named so because this algorithm relies on the assumption that all the features are independent amongst each other.
+
+5. What is optimal Bayes classifier?
+The Bayes Optimal Classifier is a probabilistic model that makes the most probable prediction for a new example. Bayes Optimal Classifier is a probabilistic model that finds the most probable prediction using the training data and space of hypotheses to make a prediction for a new data instance.
+
+6. Write any two features of Bayesian learning methods.
+Increasing training data fed to a Bayesian learning model also increases the chances that a hypothesis made will be rejected or failed to reject with high probability.
+
+7. Define the concept of consistent learners.
+Consistent learners are those machine learning models that produce zero error over the training data with dimensionality D. In other words, a consistent learning algorithm is required to provide a hypothesis that is consistent with the training data fed
+
+8. Write any two strengths of Bayes classifier.
+It is fast and can be used for real time predictions.
+
+It is easy to implement and comprehend.
+
+9. Write any two weaknesses of Bayes classifier.
+Bayesian classifiers are highly impacted by presence of imbalanced data.
+
+Since Bayesian classifier starts with an assumption of all features being independent variables, the result can be far from real life in cases. Additionally in terms of mathematics, the algorithm assigns 0 to the target variable class labels that were not present in the training data but are present in test data.
+
+10. Explain how Naïve Bayes classifier is used for
+1. Text classification
+Naive Bayes classifier works by calculating the posterior probability for class labels based on the feature values involved. Suppose that we have to do binary classification in the form a subjective or factual statement and the data preprocessing and data transformation has been performed such that the data is in Bag-Of-Words form as a document term matrix.
+
+Using the frequency of each word occurence in a document, the posterior probabilities are calculated using the Naive Bayes algorithm equation and the training is done. After training has been performed, the model can be used to calculate posterior probabilities for unseen data and the class label that gets the highest posterior probabilities is assigned as the prediction.
+
+Ultimately, the Naive Bayes classifier predicts probability of a data point if it belongs to one class label or another.
+
+2. Spam filtering
+Naive Bayes classifier works by calculating the posterior probability for class labels based on the feature values involved. Suppose that we have to do binary classification in the form of SPAM or HAM statement and the data preprocessing and data transformation has been performed such that the data is in Bag-Of-Words form as a document term matrix.
+
+Using the frequency of each word occurence in a document, the posterior probabilities are calculated using the Naive Bayes algorithm equation and the training is done. After training has been performed, the model can be used to calculate posterior probabilities for unseen data and the class label that gets the highest posterior probabilities is assigned as the prediction.
+
+Ultimately, the Naive Bayes classifier predicts probability of a data point if it belongs to SPAM class label or HAM class label.
+
+3. Market sentiment analysis
+Naive Bayes classifier works by calculating the posterior probability for class labels based on the feature values involved. Suppose that we have to do binary classification in the form of POSITIVE or NEGATIVE sentiment statement and the data preprocessing and data transformation has been performed such that the data is in Bag-Of-Words form as a document term matrix.
+
+Using the frequency of each word occurence in a document, the posterior probabilities are calculated using the Naive Bayes algorithm equation and the training is done. After training has been performed, the model can be used to calculate posterior probabilities for unseen data and the class label that gets the highest posterior probabilities is assigned as the prediction.
+
+Ultimately, the Naive Bayes classifier predicts probability of a data point if it belongs to POSITIVE sentiment class label or NEGATIVE sentiment class label.
